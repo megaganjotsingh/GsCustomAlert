@@ -2,7 +2,7 @@
 //  ViewController.swift
 //  GsCustomAlertDemo
 //
-//  Created by Gagan Mac on 18/06/20.
+//  Created by Gagan Mac on 18/01/20.
 //  Copyright © 2020 Gaganjot singh. All rights reserved.
 //
 
@@ -66,8 +66,30 @@ class ViewController: UIViewController {
         self.view.addSubview(tableView!)
     }
     
-    private func animation(index: Int) -> animationType {
-        let type = animationType(id: index)
+    private func animation(index: Int) -> GsCustomAlertAnimationType {
+        let type: GsCustomAlertAnimationType!
+        switch animationType(id: index) {
+            case .slideModalBottom:
+                type = .slideModalBottom
+            case .slideModalTop:
+                type = .slideModalTop
+            case .slideModalRight:
+                type = .slideModalRight
+            case .slideModalLeft:
+                type = .slideModalLeft
+            case .bounceModalTop:
+                type = .bounceModalTop
+            case .bounceModalBottom:
+                type = .bounceModalBottom
+            case .bounceModalLeft:
+                type = .bounceModalLeft
+            case .bounceModalRight:
+                type = .bounceModalRight
+            case .popIn:
+                type = .popIn
+            case .fadeIn:
+                type = .fadeIn
+        }
         return type
     }
     
@@ -97,31 +119,7 @@ extension ViewController: UITableViewDelegate {
         alertView.btn_cancel.addTarget(self, action: #selector(cancelAction), for: .touchUpInside)
         alertView.btn_changePassword.addTarget(self, action: #selector(changePassword), for: .touchUpInside)
         alert = GsCustomAlert(customView: alertView, tapToDismiss: true)
-        let type: GsCustomAlertAnimationType?
-        switch animation(index: indexPath.row) {
-        case .slideModalBottom:
-            type = .slideModalBottom
-        case .slideModalTop:
-            type = .slideModalTop
-        case .slideModalRight:
-            type = .slideModalRight
-        case .slideModalLeft:
-            type = .slideModalLeft
-        case .bounceModalTop:
-            type = .bounceModalTop
-        case .bounceModalBottom:
-            type = .bounceModalBottom
-        case .bounceModalLeft:
-            type = .bounceModalLeft
-        case .bounceModalRight:
-            type = .bounceModalRight
-        case .popIn:
-            type = .popIn
-        case .fadeIn:
-            type = .fadeIn
-       
-        }
-        alert.animationType = type!
+        alert.animationType = animation(index: indexPath.row)
         //alert.animationType = .popIn
         self.present(alert, animated: true, completion: nil)
     }
@@ -134,7 +132,7 @@ extension ViewController {
     }
     
     @objc func changePassword() {
-        print("Change Password")
+        print("Change Password Tapped")
     }
 }
 
