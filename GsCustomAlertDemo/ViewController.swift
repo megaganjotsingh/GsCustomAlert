@@ -116,8 +116,9 @@ extension ViewController: UITableViewDataSource {
 extension ViewController: UITableViewDelegate {
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         let alertView = ChangePasswordView.instantiateFromNib()
+        alertView.label_top.text = tableData[indexPath.row]
         alertView.btn_cancel.addTarget(self, action: #selector(cancelAction), for: .touchUpInside)
-        alertView.btn_changePassword.addTarget(self, action: #selector(changePassword), for: .touchUpInside)
+        alertView.btn_done.addTarget(self, action: #selector(doneAction), for: .touchUpInside)
         alert = GsCustomAlert(customView: alertView, tapToDismiss: true)
         alert.animationType = animation(index: indexPath.row)
         //alert.animationType = .popIn
@@ -131,8 +132,8 @@ extension ViewController {
         alert.dismiss(animated: true, completion: nil)
     }
     
-    @objc func changePassword() {
-        print("Change Password Tapped")
+    @objc func doneAction() {
+        print("Done Button Tapped")
     }
 }
 

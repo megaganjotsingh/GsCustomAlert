@@ -11,8 +11,10 @@ import UIKit
 class ChangePasswordView: UIView {
 
     @IBOutlet weak var view_textFieldContainer: UIView!
-    @IBOutlet weak var textField_Password: UITextField!
-    @IBOutlet weak var btn_changePassword: UIButton!
+    
+    @IBOutlet weak var label_top: UILabel!
+    @IBOutlet weak var textField_EnterSomething: UITextField!
+    @IBOutlet weak var btn_done: UIButton!
     @IBOutlet weak var btn_cancel: UIButton!
     
     class func instantiateFromNib() -> ChangePasswordView {
