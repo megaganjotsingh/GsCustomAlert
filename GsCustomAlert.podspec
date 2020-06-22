@@ -11,7 +11,7 @@ Pod::Spec.new do |spec|
   # ―――  Spec Metadata  ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
 
   spec.name         = "GsCustomAlert"
-  spec.version      = "1.0"
+  spec.version      = "0.0.1"
   spec.summary      = "Make the view, we give the way to present it, Simple, easy and highly customizable UIAlertView or pop up written in Swift"
 
   spec.description  = <<-DESC
@@ -47,7 +47,7 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "https://github.com/megaganjotsingh/GsCustomAlert.git", :tag => "#{spec.version}" }
+  spec.source       = { :git => "https://github.com/megaganjotsingh/GsCustomAlert.git" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -58,10 +58,8 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = 'GsCustomAlert/Source/Animations/*.swift', 'GsCustomAlert/Source/GsCustomAlert/*.swift'
+  spec.source_files  = "GsCustomAlert/Source/**/*"
 
-
- 
   # ――― Project Linking ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
 
     spec.framework  = "UIKit"

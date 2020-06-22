@@ -27,7 +27,7 @@ public class GsCustomAlertView: UIView {
     private var customView: UIView? {
        didSet {
           if let oldValue = oldValue {
-             oldValue.removeFromSuperview()  
+             oldValue.removeFromSuperview()
           }
        }
     }
