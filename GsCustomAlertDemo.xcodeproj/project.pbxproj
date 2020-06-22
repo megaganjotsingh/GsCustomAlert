@@ -22,21 +22,10 @@
 		663781F6249BC5DC009B3A60 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 663781F4249BC5DC009B3A60 /* Main.storyboard */; };
 		663781F8249BC5DD009B3A60 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 663781F7249BC5DD009B3A60 /* Assets.xcassets */; };
 		663781FB249BC5DD009B3A60 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 663781F9249BC5DD009B3A60 /* LaunchScreen.storyboard */; };
-		66378277249BCAD6009B3A60 /* GsCustomAlert.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66378275249BCA8F009B3A60 /* GsCustomAlert.framework */; };
-		66378278249BCAD6009B3A60 /* GsCustomAlert.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 66378275249BCA8F009B3A60 /* GsCustomAlert.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		6637827D249BCBC1009B3A60 /* ChangePasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6637827B249BCBC1009B3A60 /* ChangePasswordView.swift */; };
 		6637827E249BCBC1009B3A60 /* ChangePasswordView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6637827C249BCBC1009B3A60 /* ChangePasswordView.xib */; };
+		96A3996E47F4DDC85F6E4DAF /* Pods_GsCustomAlertDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3233230C5042E4F1C20B181F /* Pods_GsCustomAlertDemo.framework */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		66378274249BCA8F009B3A60 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 66378270249BCA8E009B3A60 /* GsCustomAlert.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 66378254249BC938009B3A60;
-			remoteInfo = GsCustomAlert;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		66378279249BCAD6009B3A60 /* Embed Frameworks */ = {
@@ -45,7 +34,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				66378278249BCAD6009B3A60 /* GsCustomAlert.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -53,6 +41,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		011C958566718DEE968340C1 /* Pods-GsCustomAlertDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GsCustomAlertDemo.release.xcconfig"; path = "Target Support Files/Pods-GsCustomAlertDemo/Pods-GsCustomAlertDemo.release.xcconfig"; sourceTree = "<group>"; };
+		3233230C5042E4F1C20B181F /* Pods_GsCustomAlertDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GsCustomAlertDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6616A44C249CB44C009E93B6 /* bounceModelLeft.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = bounceModelLeft.gif; sourceTree = "<group>"; };
 		6616A44D249CB44C009E93B6 /* bounceModelRight.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = bounceModelRight.gif; sourceTree = "<group>"; };
 		6616A44E249CB44C009E93B6 /* bounceModelTop.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = bounceModelTop.gif; sourceTree = "<group>"; };
@@ -70,9 +60,9 @@
 		663781F7249BC5DD009B3A60 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		663781FA249BC5DD009B3A60 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		663781FC249BC5DD009B3A60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		66378270249BCA8E009B3A60 /* GsCustomAlert.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = GsCustomAlert.xcodeproj; path = ../../GsCustomAlert/GsCustomAlert.xcodeproj; sourceTree = "<group>"; };
 		6637827B249BCBC1009B3A60 /* ChangePasswordView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChangePasswordView.swift; sourceTree = "<group>"; };
 		6637827C249BCBC1009B3A60 /* ChangePasswordView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChangePasswordView.xib; sourceTree = "<group>"; };
+		A649051D5ADFB27B6FC2E41D /* Pods-GsCustomAlertDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GsCustomAlertDemo.debug.xcconfig"; path = "Target Support Files/Pods-GsCustomAlertDemo/Pods-GsCustomAlertDemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,7 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				66378277249BCAD6009B3A60 /* GsCustomAlert.framework in Frameworks */,
+				96A3996E47F4DDC85F6E4DAF /* Pods_GsCustomAlertDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -107,11 +97,11 @@
 		663781E2249BC5DC009B3A60 = {
 			isa = PBXGroup;
 			children = (
-				66378270249BCA8E009B3A60 /* GsCustomAlert.xcodeproj */,
 				6616A44B249CB44C009E93B6 /* GifGsAlert */,
 				663781ED249BC5DC009B3A60 /* GsCustomAlertDemo */,
 				663781EC249BC5DC009B3A60 /* Products */,
 				66378276249BCAD5009B3A60 /* Frameworks */,
+				D858C6621091609CA01C0D42 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -137,17 +127,10 @@
 			path = GsCustomAlertDemo;
 			sourceTree = "<group>";
 		};
-		66378271249BCA8E009B3A60 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				66378275249BCA8F009B3A60 /* GsCustomAlert.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		66378276249BCAD5009B3A60 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				3233230C5042E4F1C20B181F /* Pods_GsCustomAlertDemo.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -161,6 +144,16 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		D858C6621091609CA01C0D42 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A649051D5ADFB27B6FC2E41D /* Pods-GsCustomAlertDemo.debug.xcconfig */,
+				011C958566718DEE968340C1 /* Pods-GsCustomAlertDemo.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -168,10 +161,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 663781FF249BC5DD009B3A60 /* Build configuration list for PBXNativeTarget "GsCustomAlertDemo" */;
 			buildPhases = (
+				051D09553E2587685ECDA813 /* [CP] Check Pods Manifest.lock */,
 				663781E7249BC5DC009B3A60 /* Sources */,
 				663781E8249BC5DC009B3A60 /* Frameworks */,
 				663781E9249BC5DC009B3A60 /* Resources */,
 				66378279249BCAD6009B3A60 /* Embed Frameworks */,
+				3728733FBFE3F11522A4B59D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -208,28 +203,12 @@
 			mainGroup = 663781E2249BC5DC009B3A60;
 			productRefGroup = 663781EC249BC5DC009B3A60 /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = 66378271249BCA8E009B3A60 /* Products */;
-					ProjectRef = 66378270249BCA8E009B3A60 /* GsCustomAlert.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				663781EA249BC5DC009B3A60 /* GsCustomAlertDemo */,
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXReferenceProxy section */
-		66378275249BCA8F009B3A60 /* GsCustomAlert.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = GsCustomAlert.framework;
-			remoteRef = 66378274249BCA8F009B3A60 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		663781E9249BC5DC009B3A60 /* Resources */ = {
@@ -254,6 +233,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		051D09553E2587685ECDA813 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GsCustomAlertDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3728733FBFE3F11522A4B59D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GsCustomAlertDemo/Pods-GsCustomAlertDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GsCustomAlertDemo/Pods-GsCustomAlertDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GsCustomAlertDemo/Pods-GsCustomAlertDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		663781E7249BC5DC009B3A60 /* Sources */ = {
@@ -404,6 +425,7 @@
 		};
 		66378200249BC5DD009B3A60 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A649051D5ADFB27B6FC2E41D /* Pods-GsCustomAlertDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -422,6 +444,7 @@
 		};
 		66378201249BC5DD009B3A60 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 011C958566718DEE968340C1 /* Pods-GsCustomAlertDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
