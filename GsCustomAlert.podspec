@@ -48,6 +48,8 @@ Pod::Spec.new do |spec|
   #
 
   spec.source       = { :git => "https://github.com/megaganjotsingh/GsCustomAlert.git" }
+  s.swift_version = '4.2'
+
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
