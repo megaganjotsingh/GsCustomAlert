@@ -12,7 +12,7 @@ import GsCustomAlert
 class ViewController: UIViewController {
     
     var tableView: UITableView?
-    var alert = GsCustomAlert()
+    var alert = GsCustomAlert() 
     private enum animationType: String, CaseIterable {
         case slideModalBottom = "slideModalBottom"
         case slideModalLeft = "slideModalLeft"
