@@ -108,6 +108,7 @@
 			isa = PBXGroup;
 			children = (
 				66378270249BCA8E009B3A60 /* GsCustomAlert.xcodeproj */,
+				6616A44B249CB44C009E93B6 /* GifGsAlert */,
 				663781ED249BC5DC009B3A60 /* GsCustomAlertDemo */,
 				663781EC249BC5DC009B3A60 /* Products */,
 				66378276249BCAD5009B3A60 /* Frameworks */,
@@ -125,7 +126,6 @@
 		663781ED249BC5DC009B3A60 /* GsCustomAlertDemo */ = {
 			isa = PBXGroup;
 			children = (
-				6616A44B249CB44C009E93B6 /* GifGsAlert */,
 				6637827A249BCBAD009B3A60 /* View */,
 				663781EE249BC5DC009B3A60 /* AppDelegate.swift */,
 				663781F2249BC5DC009B3A60 /* ViewController.swift */,
