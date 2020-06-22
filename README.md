@@ -3,6 +3,12 @@
   Make the view, we give the way to present it.
   It is a Simple, easy and highly customizable UIAlertView or pop up written in Swift.
   
+  ![bounceModelBottom](https://github.com/megaganjotsingh/GsCustomAlert/blob/master/GifGsAlert/bounceModelBottom.gif)_
+
+  
+  
+  
+  
  Installation
  ---
 
