@@ -58,8 +58,10 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "GsCustomAlert/GsCustomAlert/Source/**/*"
+  spec.source_files  = 'GsCustomAlert/Source/Animations/*.swift', 'GsCustomAlert/Source/GsCustomAlert/*.swift'
 
+
+ 
   # ――― Project Linking ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
 
     spec.framework  = "UIKit"
