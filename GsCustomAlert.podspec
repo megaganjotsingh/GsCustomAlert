@@ -47,6 +47,8 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
+	spec.source       = { :http => 'file:' + __dir__ + "/" }
+
   spec.source       = { :git => "https://github.com/megaganjotsingh/GsCustomAlert.git", :tag => "#{spec.version}" }
 
 
