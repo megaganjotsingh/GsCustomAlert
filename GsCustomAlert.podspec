@@ -11,7 +11,7 @@ Pod::Spec.new do |spec|
   # ―――  Spec Metadata  ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
 
   spec.name         = "GsCustomAlert"
-  spec.version      = "0.0.1"
+  spec.version      = "1.0.0"
   spec.summary      = "Make the view, we give the way to present it, Simple, easy and highly customizable UIAlertView or pop up written in Swift"
 
   spec.description  = <<-DESC
@@ -58,7 +58,7 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "GsCustomAlert/Source/**/*"
+  spec.source_files  = "GsCustomAlert/GsCustomAlert/Source/**/*"
 
   # ――― Project Linking ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
 
