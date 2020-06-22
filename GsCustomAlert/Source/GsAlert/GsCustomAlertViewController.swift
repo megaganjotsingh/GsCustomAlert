@@ -12,8 +12,8 @@ public class GsCustomAlertViewController: UIViewController {
    private(set) var keyboardRect = CGRect.zero
    
    func listenKeyboard(){
-    NotificationCenter.default.addObserver(self, selector: #selector(GsCustomAlertViewController.keyboardWillShow(sender:)), name: , object: nil)
-      NotificationCenter.default.addObserver(self, selector: #selector(GsCustomAlertViewController.keyboardWillHide(sender:)), name: NSNotification.Name.UIKeyboardWillHide, object: nil)
+      NotificationCenter.default.addObserver(self, selector: #selector(GsCustomAlertViewController.keyboardWillShow(sender:)), name: NSNotification.Name.UIKeyboardWillChangeFrame, object: nil)
+      NotificationCenter.default.addObserver(self, selector: #selector(GsCustomAlertViewController.keyboardWillHide(sender:)), name: UIResponder.keyboardWillHideNotification, object: nil)
    }
    
    @objc func keyboardWillShow(sender: NSNotification){
