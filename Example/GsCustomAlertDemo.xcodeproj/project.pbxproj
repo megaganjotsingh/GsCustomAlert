@@ -3,20 +3,10 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6616A456249CB44C009E93B6 /* bounceModelLeft.gif in Resources */ = {isa = PBXBuildFile; fileRef = 6616A44C249CB44C009E93B6 /* bounceModelLeft.gif */; };
-		6616A457249CB44C009E93B6 /* bounceModelRight.gif in Resources */ = {isa = PBXBuildFile; fileRef = 6616A44D249CB44C009E93B6 /* bounceModelRight.gif */; };
-		6616A458249CB44C009E93B6 /* bounceModelTop.gif in Resources */ = {isa = PBXBuildFile; fileRef = 6616A44E249CB44C009E93B6 /* bounceModelTop.gif */; };
-		6616A459249CB44C009E93B6 /* popin.gif in Resources */ = {isa = PBXBuildFile; fileRef = 6616A44F249CB44C009E93B6 /* popin.gif */; };
-		6616A45A249CB44C009E93B6 /* bounceModelBottom.gif in Resources */ = {isa = PBXBuildFile; fileRef = 6616A450249CB44C009E93B6 /* bounceModelBottom.gif */; };
-		6616A45B249CB44C009E93B6 /* fade.gif in Resources */ = {isa = PBXBuildFile; fileRef = 6616A451249CB44C009E93B6 /* fade.gif */; };
-		6616A45C249CB44C009E93B6 /* slideModelLeft.gif in Resources */ = {isa = PBXBuildFile; fileRef = 6616A452249CB44C009E93B6 /* slideModelLeft.gif */; };
-		6616A45D249CB44C009E93B6 /* slideModelBottom.gif in Resources */ = {isa = PBXBuildFile; fileRef = 6616A453249CB44C009E93B6 /* slideModelBottom.gif */; };
-		6616A45E249CB44C009E93B6 /* slideModelRight.gif in Resources */ = {isa = PBXBuildFile; fileRef = 6616A454249CB44C009E93B6 /* slideModelRight.gif */; };
-		6616A45F249CB44C009E93B6 /* slideModelTop.gif in Resources */ = {isa = PBXBuildFile; fileRef = 6616A455249CB44C009E93B6 /* slideModelTop.gif */; };
 		663781EF249BC5DC009B3A60 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663781EE249BC5DC009B3A60 /* AppDelegate.swift */; };
 		663781F3249BC5DC009B3A60 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663781F2249BC5DC009B3A60 /* ViewController.swift */; };
 		663781F6249BC5DC009B3A60 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 663781F4249BC5DC009B3A60 /* Main.storyboard */; };
@@ -43,16 +33,6 @@
 /* Begin PBXFileReference section */
 		011C958566718DEE968340C1 /* Pods-GsCustomAlertDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GsCustomAlertDemo.release.xcconfig"; path = "Target Support Files/Pods-GsCustomAlertDemo/Pods-GsCustomAlertDemo.release.xcconfig"; sourceTree = "<group>"; };
 		3233230C5042E4F1C20B181F /* Pods_GsCustomAlertDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GsCustomAlertDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		6616A44C249CB44C009E93B6 /* bounceModelLeft.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = bounceModelLeft.gif; sourceTree = "<group>"; };
-		6616A44D249CB44C009E93B6 /* bounceModelRight.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = bounceModelRight.gif; sourceTree = "<group>"; };
-		6616A44E249CB44C009E93B6 /* bounceModelTop.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = bounceModelTop.gif; sourceTree = "<group>"; };
-		6616A44F249CB44C009E93B6 /* popin.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = popin.gif; sourceTree = "<group>"; };
-		6616A450249CB44C009E93B6 /* bounceModelBottom.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = bounceModelBottom.gif; sourceTree = "<group>"; };
-		6616A451249CB44C009E93B6 /* fade.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = fade.gif; sourceTree = "<group>"; };
-		6616A452249CB44C009E93B6 /* slideModelLeft.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = slideModelLeft.gif; sourceTree = "<group>"; };
-		6616A453249CB44C009E93B6 /* slideModelBottom.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = slideModelBottom.gif; sourceTree = "<group>"; };
-		6616A454249CB44C009E93B6 /* slideModelRight.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = slideModelRight.gif; sourceTree = "<group>"; };
-		6616A455249CB44C009E93B6 /* slideModelTop.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = slideModelTop.gif; sourceTree = "<group>"; };
 		663781EB249BC5DC009B3A60 /* GsCustomAlertDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GsCustomAlertDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		663781EE249BC5DC009B3A60 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		663781F2249BC5DC009B3A60 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -77,27 +57,9 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		6616A44B249CB44C009E93B6 /* GifGsAlert */ = {
-			isa = PBXGroup;
-			children = (
-				6616A44C249CB44C009E93B6 /* bounceModelLeft.gif */,
-				6616A44D249CB44C009E93B6 /* bounceModelRight.gif */,
-				6616A44E249CB44C009E93B6 /* bounceModelTop.gif */,
-				6616A44F249CB44C009E93B6 /* popin.gif */,
-				6616A450249CB44C009E93B6 /* bounceModelBottom.gif */,
-				6616A451249CB44C009E93B6 /* fade.gif */,
-				6616A452249CB44C009E93B6 /* slideModelLeft.gif */,
-				6616A453249CB44C009E93B6 /* slideModelBottom.gif */,
-				6616A454249CB44C009E93B6 /* slideModelRight.gif */,
-				6616A455249CB44C009E93B6 /* slideModelTop.gif */,
-			);
-			path = GifGsAlert;
-			sourceTree = "<group>";
-		};
 		663781E2249BC5DC009B3A60 = {
 			isa = PBXGroup;
 			children = (
-				6616A44B249CB44C009E93B6 /* GifGsAlert */,
 				663781ED249BC5DC009B3A60 /* GsCustomAlertDemo */,
 				663781EC249BC5DC009B3A60 /* Products */,
 				66378276249BCAD5009B3A60 /* Frameworks */,
@@ -150,7 +112,6 @@
 				A649051D5ADFB27B6FC2E41D /* Pods-GsCustomAlertDemo.debug.xcconfig */,
 				011C958566718DEE968340C1 /* Pods-GsCustomAlertDemo.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -215,20 +176,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6616A458249CB44C009E93B6 /* bounceModelTop.gif in Resources */,
 				663781FB249BC5DD009B3A60 /* LaunchScreen.storyboard in Resources */,
-				6616A45B249CB44C009E93B6 /* fade.gif in Resources */,
 				663781F8249BC5DD009B3A60 /* Assets.xcassets in Resources */,
-				6616A45F249CB44C009E93B6 /* slideModelTop.gif in Resources */,
-				6616A45C249CB44C009E93B6 /* slideModelLeft.gif in Resources */,
-				6616A459249CB44C009E93B6 /* popin.gif in Resources */,
-				6616A456249CB44C009E93B6 /* bounceModelLeft.gif in Resources */,
-				6616A45E249CB44C009E93B6 /* slideModelRight.gif in Resources */,
 				663781F6249BC5DC009B3A60 /* Main.storyboard in Resources */,
-				6616A45A249CB44C009E93B6 /* bounceModelBottom.gif in Resources */,
 				6637827E249BCBC1009B3A60 /* ChangePasswordView.xib in Resources */,
-				6616A457249CB44C009E93B6 /* bounceModelRight.gif in Resources */,
-				6616A45D249CB44C009E93B6 /* slideModelBottom.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
