@@ -33,7 +33,7 @@ public class GsCustomAlert: GsCustomAlertViewController {
       super.init(coder: aDecoder)
    }
    
-   public init(title: String? = nil, customView: UIView? = nil, tapToDismiss: Bool = true, dismissOnActionTapped: Bool = true) {
+   public init(customView: UIView? = nil, tapToDismiss: Bool = true, dismissOnActionTapped: Bool = true) {
       self.GsCustomAlertVw = GsCustomAlertView()
       self.tapToDismiss = tapToDismiss
       super.init(nibName: nil, bundle: nil)
