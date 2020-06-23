@@ -70,20 +70,20 @@
 		6616A49724A0AF7C009E93B6 /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				6616A49824A0AF7C009E93B6 /* GsAlert */,
+				6616A49824A0AF7C009E93B6 /* GsCustomAlert */,
 				6616A49C24A0AF7C009E93B6 /* Animations */,
 			);
 			path = Source;
 			sourceTree = "<group>";
 		};
-		6616A49824A0AF7C009E93B6 /* GsAlert */ = {
+		6616A49824A0AF7C009E93B6 /* GsCustomAlert */ = {
 			isa = PBXGroup;
 			children = (
 				6616A49924A0AF7C009E93B6 /* GsCustomAlert.swift */,
 				6616A49A24A0AF7C009E93B6 /* GsCustomAlertViewController.swift */,
 				6616A49B24A0AF7C009E93B6 /* GsCustomAlertView.swift */,
 			);
-			path = GsAlert;
+			path = GsCustomAlert;
 			sourceTree = "<group>";
 		};
 		6616A49C24A0AF7C009E93B6 /* Animations */ = {
