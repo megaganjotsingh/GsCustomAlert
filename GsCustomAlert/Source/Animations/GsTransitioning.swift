@@ -142,13 +142,17 @@ extension GsTransitioning {
         let offset = offsetForPresent(edge: edge, view: view)
 
         let delta = CGPoint(x: offset.x + x, y: offset.y + y)
-        let endTransform = CGAffineTransform(translationX: delta.x, y: delta.y)
+        let endTransform = CGAffineTransform(translationX: delta.x*0.1, y: delta.y*0.1)
+        let prepareTransform = CGAffineTransform(translationX: delta.x, y: delta.y)
         UIView.animateKeyframes(
           withDuration: duration, delay: delay, options: .calculationModeCubic, animations: {
             UIView.addKeyframe(withRelativeStartTime: 0, relativeDuration: 0.0) {
-              view.transform = endTransform
+              view.transform = prepareTransform
             }
-            UIView.addKeyframe(withRelativeStartTime: 0.1, relativeDuration: 0.5) {
+            UIView.addKeyframe(withRelativeStartTime: 0.1, relativeDuration: 0.7) {
+                view.transform = endTransform
+            }
+            UIView.addKeyframe(withRelativeStartTime: 0.7, relativeDuration: 0.75) {
                 view.transform = .identity
             }
           }, completion: completion)
