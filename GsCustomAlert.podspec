@@ -11,7 +11,7 @@ Pod::Spec.new do |spec|
   # ―――  Spec Metadata  ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
 
   spec.name         = "GsCustomAlert"
-  spec.version      = "1.0.0"
+  spec.version      = "1.0"
   spec.summary      = "Make the view, we give the way to present it, Simple, easy and highly customizable UIAlertView or pop up written in Swift"
 
   spec.description  = <<-DESC
