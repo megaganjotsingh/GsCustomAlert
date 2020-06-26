@@ -17,7 +17,7 @@
   
   To install GsCustomAlert using CocoaPods, integrate it in your existing Podfile, or create a new Podfile:
   
-  `pod "GsCustomAlert"`
+  `  pod 'GsCustomAlert', '~> 1.0'`
   
 ### [Carthage](https://github.com/Carthage/Carthage)
 
