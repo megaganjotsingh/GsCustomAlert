@@ -35,7 +35,7 @@ Pod::Spec.new do |spec|
   # ――― Author Metadata  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
 
   spec.author             = { "Gaganjot singh" => "megaganjotsingh@gmail.com" }
-   spec.social_media_url   = "http://linkedin.com/in/gaganjot-singh-40b40b100"
+   spec.social_media_url   = "https://www.facebook.com/gaganjot.singh.1884"
 
   # ――― Platform Specifics ――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
     spec.platform     = :ios, "11.0"
