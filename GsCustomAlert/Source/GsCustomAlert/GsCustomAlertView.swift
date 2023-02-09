@@ -10,8 +10,8 @@ import UIKit
 public class GsCustomAlertView: UIView {
     
     init() {
-        super.init(frame: .zero)
-        clipsToBounds = true
+       super.init(frame: .zero)
+       clipsToBounds = true
     }
     
     required public init?(coder aDecoder: NSCoder) {
@@ -46,10 +46,8 @@ public class GsCustomAlertView: UIView {
           customView.leadingAnchor.constraint(equalTo: self.leadingAnchor, constant: inset)
        ]
        
-          customViewConstraints.append(customView.topAnchor.constraint(equalTo: self.topAnchor, constant: inset))
-          customViewConstraints.append(customView.bottomAnchor.constraint(equalTo: self.bottomAnchor, constant: -inset))
-       
-       
+       customViewConstraints.append(customView.topAnchor.constraint(equalTo: self.topAnchor, constant: inset))
+       customViewConstraints.append(customView.bottomAnchor.constraint(equalTo: self.bottomAnchor, constant: -inset))
        NSLayoutConstraint.activate(customViewConstraints)
     }
     
